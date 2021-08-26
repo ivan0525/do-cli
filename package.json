@@ -1,0 +1,25 @@
+{
+  "name": "do-cli",
+  "version": "1.0.0",
+  "description": "A CLI to create a new project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "do-cli": "bin/do-cli.js"
+  },
+  "keywords": [
+    "cli",
+    "do-cli"
+  ],
+  "author": "ivan0525",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "chalk": "^4.1.2",
+    "esm": "^3.2.25",
+    "inquirer": "^8.1.2",
+    "ncp": "^2.0.0"
+  }
+}
